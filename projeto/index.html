@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Autor: Wellington" Title="Aula-01" />
+  <link rel="shortcut icon" href="./imgs/Logo_icone.png" />
+  <link rel="stylesheet" href="site.css">
+  <title>Projeto Vinharia</title>
+  <!-- FINAL DO CABEÇALHO -->
+</head>
+<body>
+
+  <!--INÍCIO-->
+  <nav>
+    <div class="logo">
+        <a href="index.html"> VINHERIA INFESTA </a>
+    </div>
+
+    <ul>
+        <li> <a href="#"> Início </a> </li>
+        <li> <a href="#"> Sobre Nós </a> </li>
+        <li> <a href="#"> Vinhos</a></li>
+        <li> <a href="#"> Contato </a> </li>
+        <div id="divPesquisar">
+          <input type="text" id="txtPesquisar" placeholder="Digite..."/>
+          <button id="btnPesquisar">Pesquisar</button>
+        </div>
+    </ul>
+</nav>
+
+<!--BANNER-->
+<img id="banner" src="./imgs/banner.png" width="100%">
+<!--Escolhas-->
+<h2>Selecione uma opção:</h2>
+  <select name="select">
+    <option value="valor1">Infesta</option>
+    <option value="valor2" selected>Nacionais</option>
+    <option value="valor3">Importados</option>
+    <option value="valor4">Espumantes</option>
+  </select>
+  <br>
+  <br>
+  <!--Título-->
+<h1 id="productType">NACIONAIS</h1>
+  <!--Vinhos-->
+  <main id="container">
+    <!-- Product -->  
+    <section class="product">
+        <!-- First line -->
+        <div class="productCard">
+            <div class="productCardFlag">
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho1.avif" alt="Product One" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Randon</h2>
+                <hr />
+                <span>R$ 76,00</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag hide">
+                <span></span>
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho2.webp" alt="Product two" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Muralha Touriga Nacional</h2>
+                <hr />
+                <span>R$ 35,00</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag hide">
+                <span></span>
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho3.webp" alt="Product three" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Essencial Ancellota</h2>
+                <hr />
+                <span>R$ 40,00</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag">
+                <span> - Mais vendido</span>
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho4.webp" alt="Product four" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">G99 Cabernet</h2>
+                <hr />
+                <span>R$ 57,00</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <!-- Second line -->
+        <div class="productCard">
+            <div class="productCardFlag hide">
+                <span></span>
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho5.jpeg" alt="Product five" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Saint Germain</h2>
+                <hr />
+                <span>R$ 44,90</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag">
+                <span> - Promoção</span>
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho6.jpeg" alt="Product six" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Garibaldi Rosé</h2>
+                <hr />
+                <div class="productPrice">
+                    <span>R$ 50,00</span>
+                    <span>R$ 34,25</span>
+                </div>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag hide">
+                <span></span>
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho7.webp" alt="Product seven" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Reservado</h2>
+                <hr />
+                <span>R$ 25,00</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag hide">
+                <span></span>
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho8.jpg" alt="Product eight" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Talha-Mar</h2>
+                <hr />
+                <span>R$ 38,00</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag">
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho9.jpg" alt="Product nine" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Vinho Casal Mendes Rosé</h2>
+                <hr />
+                <span>R$ 50,00</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag">
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho10.jpg" alt="Product ten" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Vinho Casal Mendes Tinto</h2>
+                <hr />
+                <span>R$ 50,00</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag">
+                <span> - Promoção</span>
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho11.jpg" alt="Product six" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Vinho Tinto Francês Blason Capelviel Réserve Syrah</h2>
+                <hr />
+                <div class="productPrice">
+                    <span>R$ 179,90</span>
+                    <span>R$ 39,90</span>
+                </div>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+
+        <div class="productCard">
+            <div class="productCardFlag">
+            </div>
+            <div class="productCardImage">
+                <img src="./imgs/vinho1.avif" alt="Product twelve" />
+            </div>
+            <div class="productInfo">
+                <h2 class="productName">Vinho Tinto Chileno Ravanal Gran Reserva Cabernet</h2>
+                <hr />
+                <span>R$ 64,52</span>
+                <button class="comprarbtn">Comprar</button>
+            </div>
+        </div>
+  <hr>
+<!--Sobre Nós-->
+<info>
+<h1 id="informationHeader">Sobre Nós:</h1>
+<br>
+<h3>Inspirada na pequena freguesia portuguesa de Infesta com 413 habitantes
+   localizada no município de Paredes de Coura, a nossa vinheria tem o objetivo de proporcionar a melhor
+   experiência aos nossos clientes oferecendo, através de nossa curadoria, os melhores vinhos e espumantes nacionais, internacionais 
+   e, é claro os vinhos verdes especiais da vila de Infesta. 
+  </h3>
+  <br>
+  <!--Contatos-->
+  <h1>Contatos:</h1>
+  <h2 class="contactInfoZap"><pre>  <img src="./imgs/zap.png" height="30"> (11)99999-9999</pre></h2>
+  <h2 class="contactInfoInsta"><pre>  <img src="./imgs/insta.webp" height="30"> Infesta_Vinheria</pre></h2>
+  <h2 class="contactInfoFace"><pre>  <img src="./imgs/face.png" height="30"> VinheriaInfesta</pre></h2>
+  <br>
+  <footer>
+    <h6>@2024 - Todos os direitos reservados.</h6>
+  </footer>
+</info>
+</body>
+
+</html>
